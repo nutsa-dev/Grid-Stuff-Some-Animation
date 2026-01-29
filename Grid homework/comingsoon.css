@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 500;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    animation-name: Title;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+
+}
+
+@keyframes Title {
+    from {
+        color: black;
+    }
+    to {
+        color: gold;
+    }
+}
